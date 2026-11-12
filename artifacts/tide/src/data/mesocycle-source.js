@@ -35,7 +35,7 @@ const week1 = [
     title: 'Push · Bench',
     subtitle: 'S1 Base · Bench Press + metcon de empuje',
     duration: 50, image: IMG.push,
-    intro: 'Semana base del mesociclo. Bench al 72% con técnica limpia, metcon de empuje + cadera y core en 40/20.',
+    intro: 'Semana base del mesociclo. Bench al 72% con técnica limpia, metcon de empuje + cadera y core en 40/20. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + activación de hombro',
         exercises: [
@@ -80,7 +80,7 @@ const week1 = [
     title: 'Run + Pull · Deadlift',
     subtitle: 'S1 Base · Deadlift + metcon cada 90 seg',
     duration: 50, image: IMG.pull,
-    intro: 'Cadena posterior y tirón. Deadlift en el techo de discos con tempo para compensar carga, corrida como recuperación activa.',
+    intro: 'Cadena posterior y tirón. Deadlift en el techo de discos con tempo para compensar carga, corrida como recuperación activa. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + bisagra',
         exercises: [
@@ -124,7 +124,7 @@ const week1 = [
     title: 'Legs · Back Squat',
     subtitle: 'S1 Base · Back Squat + metcon de piernas',
     duration: 50, image: IMG.legs,
-    intro: 'Día de piernas completo: squat al 72%, unilateral con KB y metcon de pierna explosivo.',
+    intro: 'Día de piernas completo: squat al 72%, unilateral con KB y metcon de pierna explosivo. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + cadera/tobillo',
         exercises: [
@@ -168,7 +168,7 @@ const week1 = [
     title: 'Run · 4×4',
     subtitle: 'S1 Base · Intervalos 4×4 en Z4',
     duration: 38, image: IMG.run,
-    intro: 'Intervalos noruegos 4×4: el estímulo aeróbico más rendidor para VO2max.',
+    intro: 'Intervalos noruegos 4×4: el estímulo aeróbico más rendidor para VO2max. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Trote + drills',
         exercises: [
@@ -191,7 +191,7 @@ const week1 = [
     title: 'Push · Shoulder Press',
     subtitle: 'S1 Base · Strict Press + escalera ascendente',
     duration: 50, image: IMG.shoulders,
-    intro: 'Empuje vertical estricto, bumper rotacional para rugby/golf y escalera híbrida.',
+    intro: 'Empuje vertical estricto, bumper rotacional para rugby/golf y escalera híbrida. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + overhead',
         exercises: [
@@ -235,7 +235,7 @@ const week1 = [
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S1 Base · Front Rack Lunges + Hyrox 4 rondas',
     duration: 55, image: IMG.hybrid,
-    intro: 'Sesión estilo Hyrox: potencia de cadera, fuerza de pierna con barra y bloque largo run + estaciones.',
+    intro: 'Sesión estilo Hyrox: potencia de cadera, fuerza de pierna con barra y bloque largo run + estaciones. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'Trote + activación',
         exercises: [
@@ -299,7 +299,7 @@ const week2 = [
     title: 'Push · Incline Bench',
     subtitle: 'S2 Carga · Incline Bench + every 90 seg',
     duration: 50, image: IMG.push,
-    intro: 'Cambio de ángulo: inclinado para pectoral superior y deltoides anterior. Bumper rotacional abriendo.',
+    intro: 'Cambio de ángulo: inclinado para pectoral superior y deltoides anterior. Bumper rotacional abriendo. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + activación de hombro',
         exercises: [
@@ -342,7 +342,7 @@ const week2 = [
     title: 'Run + Pull · Bent Over Row',
     subtitle: 'S2 Carga · Barbell Row + AMRAP olímpico',
     duration: 50, image: IMG.pull,
-    intro: 'Espalda media y dorsales con barra, potencia de cadena posterior y hang power clean en el metcon.',
+    intro: 'Espalda media y dorsales con barra, potencia de cadena posterior y hang power clean en el metcon. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + bisagra',
         exercises: [
@@ -384,7 +384,7 @@ const week2 = [
     title: 'Legs · Hip Thrust',
     subtitle: 'S2 Carga · Hip Thrust + 21-15-9',
     duration: 50, image: IMG.legs,
-    intro: 'Semana de glúteo e isquios: hip thrust pesado, curl de isquio y metcon de pierna en esquema descendente.',
+    intro: 'Semana de glúteo e isquios: hip thrust pesado, curl de isquio y metcon de pierna en esquema descendente. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + cadera',
         exercises: [
@@ -426,7 +426,7 @@ const week2 = [
     title: 'Run · 30/30',
     subtitle: 'S2 Carga · 2 series × 10 × 30/30',
     duration: 38, image: IMG.run,
-    intro: 'Intervalos cortos a velocidad alta: mucha calidad de zancada con recuperación incompleta.',
+    intro: 'Intervalos cortos a velocidad alta: mucha calidad de zancada con recuperación incompleta. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Trote + drills',
         exercises: [
@@ -450,7 +450,7 @@ const week2 = [
     title: 'Push · Push Press',
     subtitle: 'S2 Carga · Push Press + AMRAP overhead',
     duration: 50, image: IMG.shoulders,
-    intro: 'Potencia de empuje vertical con piernas, deltoides lateral y prehab de manguito.',
+    intro: 'Potencia de empuje vertical con piernas, deltoides lateral y prehab de manguito. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + overhead',
         exercises: [
@@ -492,7 +492,7 @@ const week2 = [
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S2 Carga · Hang Squat Clean + Hyrox 4 rondas',
     duration: 55, image: IMG.hybrid,
-    intro: 'Hyrox con estaciones nuevas. Clean pesado para potencia total antes del bloque largo.',
+    intro: 'Hyrox con estaciones nuevas. Clean pesado para potencia total antes del bloque largo. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'Trote + activación',
         exercises: [
@@ -555,7 +555,7 @@ const week3 = [
     title: 'Push · Bench Heavy',
     subtitle: 'S3 Pico · Bench pesado + rondas descendentes',
     duration: 50, image: IMG.push,
-    intro: 'Semana más pesada del mes. Bench a triples, metcon descendente y core en escalera.',
+    intro: 'Semana más pesada del mes. Bench a triples, metcon descendente y core en escalera. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + activación de hombro',
         exercises: [
@@ -598,7 +598,7 @@ const week3 = [
     title: 'Run + Pull · Snatch Grip DL',
     subtitle: 'S3 Pico · Snatch Grip Deadlift + every 90 seg',
     duration: 50, image: IMG.pull,
-    intro: 'Agarre de arranque: más rango, más trapecio y dorsal con la misma barra. Power clean en el metcon.',
+    intro: 'Agarre de arranque: más rango, más trapecio y dorsal con la misma barra. Power clean en el metcon. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + bisagra',
         exercises: [
@@ -641,7 +641,7 @@ const week3 = [
     title: 'Legs · Front Squat',
     subtitle: 'S3 Pico · Front Squat + AMRAP de piernas',
     duration: 50, image: IMG.legs,
-    intro: 'Cuádriceps y core anterior con front squat pesado, step ups unilaterales y metcon de pierna.',
+    intro: 'Cuádriceps y core anterior con front squat pesado, step ups unilaterales y metcon de pierna. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + muñeca/tobillo',
         exercises: [
@@ -684,7 +684,7 @@ const week3 = [
     title: 'Run · 4×4 progresivo',
     subtitle: 'S3 Pico · 4×4 con recuperación decreciente',
     duration: 38, image: IMG.run,
-    intro: '4×4 más exigente: cada intervalo un poco más rápido y menos recuperación.',
+    intro: '4×4 más exigente: cada intervalo un poco más rápido y menos recuperación. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 9, format: 'Trote + drills',
         exercises: [
@@ -707,7 +707,7 @@ const week3 = [
     title: 'Push · Z-Press',
     subtitle: 'S3 Pico · Barbell Z-Press + escalera',
     duration: 50, image: IMG.shoulders,
-    intro: 'Press sentado en el piso: hombro y core sin poder compensar con piernas. Control overhead unilateral.',
+    intro: 'Press sentado en el piso: hombro y core sin poder compensar con piernas. Control overhead unilateral. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + overhead',
         exercises: [
@@ -751,7 +751,7 @@ const week3 = [
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S3 Pico · Clean & Jerk + Hyrox 4 rondas',
     duration: 55, image: IMG.hybrid,
-    intro: 'Pico del mes: clean & jerk, carga de rack y bloque Hyrox largo con carries.',
+    intro: 'Pico del mes: clean & jerk, carga de rack y bloque Hyrox largo con carries. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'Trote + activación',
         exercises: [
@@ -814,7 +814,7 @@ const week4 = [
     title: 'Push · Close-Grip Bench',
     subtitle: 'S4 Reset · Close-Grip tempo + rondas',
     duration: 48, image: IMG.push,
-    intro: 'Barra más liviana con tempo para recuperar articulaciones; tríceps y metcon intensos.',
+    intro: 'Barra más liviana con tempo para recuperar articulaciones; tríceps y metcon intensos. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + activación de hombro',
         exercises: [
@@ -857,7 +857,7 @@ const week4 = [
     title: 'Run + Pull · RDL',
     subtitle: 'S4 Reset · Romanian Deadlift + every 90 seg',
     duration: 50, image: IMG.pull,
-    intro: 'Isquios y espalda baja con RDL lento, tirón pausado y metcon de cadena posterior.',
+    intro: 'Isquios y espalda baja con RDL lento, tirón pausado y metcon de cadena posterior. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + bisagra',
         exercises: [
@@ -900,7 +900,7 @@ const week4 = [
     title: 'Legs · Paused Squat',
     subtitle: 'S4 Reset · Back Squat con pausa + 21-15-9',
     duration: 50, image: IMG.legs,
-    intro: 'Squat con pausa para técnica y posición, plano frontal con Cossack y metcon descendente.',
+    intro: 'Squat con pausa para técnica y posición, plano frontal con Cossack y metcon descendente. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + cadera/tobillo',
         exercises: [
@@ -943,7 +943,7 @@ const week4 = [
     title: 'Run · 30/30',
     subtitle: 'S4 Reset · 3 series × 6 × 30/30',
     duration: 38, image: IMG.run,
-    intro: 'Mismo estímulo de velocidad, repartido en 3 bloques más cortos para llegar fresco al benchmark.',
+    intro: 'Mismo estímulo de velocidad, repartido en 3 bloques más cortos para llegar fresco al benchmark. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Trote + drills',
         exercises: [
@@ -967,7 +967,7 @@ const week4 = [
     title: 'Push · Strict Press + Rotación',
     subtitle: 'S4 Reset · Strict Press tempo + escalera',
     duration: 50, image: IMG.shoulders,
-    intro: 'Press estricto liviano con tempo, rotational press para golf/rugby y escalera híbrida.',
+    intro: 'Press estricto liviano con tempo, rotational press para golf/rugby y escalera híbrida. Objetivo: ≥300 kcal (Garmin).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'GOWOD + overhead',
         exercises: [
@@ -1010,7 +1010,7 @@ const week4 = [
     title: 'HYBRID · Hyrox Benchmark',
     subtitle: 'S4 · Benchmark Hyrox Home (registrá el tiempo)',
     duration: 55, image: IMG.hybrid,
-    intro: 'Cierre del mesociclo: benchmark fijo para comparar mes a mes. Mismo protocolo cada 4 semanas.',
+    intro: 'Cierre del mesociclo: benchmark fijo para comparar mes a mes. Mismo protocolo cada 4 semanas. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 6, format: 'Trote + activación',
         exercises: [
