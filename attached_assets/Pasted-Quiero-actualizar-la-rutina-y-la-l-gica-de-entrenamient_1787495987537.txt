@@ -1,0 +1,449 @@
+Quiero actualizar la rutina y la lógica de entrenamiento de mi proyecto actual TIDE, pero SIN reemplazar ni revertir funcionalidades existentes.
+
+IMPORTANTE:
+Trabajá sobre el código actual del proyecto.
+
+NO importes ni reemplaces el proyecto completo con un ZIP anterior.
+
+Conservar obligatoriamente:
+
+- Branding actual TIDE
+- Historial existente
+- Fecha fija de inicio del programa
+- Calendario semanal actual
+- Rutina mensual actual
+- Coach Mode
+- Timeline
+- Vuelta a la manzana
+- Migración de estado existente
+- LocalStorage existente
+- Progreso del usuario
+- Pantallas actuales
+- Navegación actual
+- Diseño actual
+- One Pager si ya existe
+- Nutrición si ya existe
+
+NO recalcular el inicio del programa usando "hoy".
+
+NO borrar ni resetear datos existentes.
+
+==================================================
+OBJETIVO DEL CAMBIO
+==================================================
+
+Actualizar solamente la metodología y contenido de entrenamiento para reflejar el nuevo objetivo:
+
+- perder aproximadamente 5 kg de grasa
+- mantener o aumentar masa muscular
+- ganar capacidad aeróbica
+- estar más liviano
+- ganar movilidad y flexibilidad
+- mejorar potencia
+- prepararse durante los próximos 4 meses para surf y golf
+
+El usuario ya no está entrenando específicamente para esquí.
+
+==================================================
+ESTRUCTURA PRINCIPAL
+==================================================
+
+Mantener la estructura:
+
+1. ZONA MEDIA
+2. FUERZA
+3. VUELTA A LA MANZANA cuando esté programada
+4. ATLETA
+5. VUELTA A LA MANZANA cuando esté programada
+6. FINISHER
+
+No eliminar el componente VUELTA A LA MANZANA existente.
+
+==================================================
+BLOQUE ZONA MEDIA
+==================================================
+
+3–4 ejercicios.
+
+Trabajar:
+
+- antirotación
+- antiextensión
+- estabilidad lateral
+- control lumbopélvico
+- transferencia de fuerza
+- estabilidad de cadera
+
+Formatos posibles:
+
+- AMRAP corto
+- 3 vueltas
+- 4 vueltas
+- repeticiones
+- tiempos
+
+No llevar al fallo.
+
+==================================================
+BLOQUE FUERZA
+==================================================
+
+Debe contener:
+
+1 ejercicio principal
++
+2 accesorios o transferencia.
+
+El ejercicio principal se completa primero.
+
+Ejemplo:
+
+A. Back Squat
+4 series
+
+Completar A completo.
+
+Después:
+
+B1. TRX Row
+B2. Single Leg RDL
+
+Los B pueden hacerse alternados.
+
+No usar más de un ejercicio pesado con barra que requiera cambiar muchas veces la configuración.
+
+El usuario tiene una sola barra olímpica.
+
+==================================================
+BLOQUE ATLETA
+==================================================
+
+CAMBIO IMPORTANTE.
+
+El bloque Atleta debe ser MÁS INTENSO, DINÁMICO Y EXPLOSIVO.
+
+No quiero que sea solamente:
+
+- estabilidad
+- carries
+- hip airplane
+- trabajo técnico lento
+
+Puede incluirlos, pero no pueden dominar el bloque.
+
+El atleta debe sentir que está entrenando potencia y movimiento.
+
+Formato:
+
+3–4 ejercicios
+3–4 vueltas
+10–12 minutos aproximadamente.
+
+Priorizar combinaciones de:
+
+- Hang Power Clean
+- Clean High Pull
+- Push Press
+- KB Clean
+- KB Snatch
+- KB Swing
+- Box Jump
+- Broad Jump
+- Lateral Bound
+- Pogo
+- Burpee Broad Jump
+- Medicine Ball Slam
+- Rotational Medicine Ball Throw
+- Rotational Slam
+- Sprint
+- Shuttle Run
+- Lateral Shuffle
+- cambios de dirección
+- aceleraciones
+
+Ejemplo:
+
+3 vueltas:
+
+- Hang Power Clean x 5
+- Box Jump x 6
+- KB Swing x 15
+- Sprint 30 m
+
+Otro ejemplo:
+
+4 vueltas:
+
+- Push Press x 6
+- Broad Jump x 5
+- Rotational MB Slam x 8/lado
+- Shuttle Run
+
+El bloque Atleta debe elevar pulsaciones, pero mantener potencia y buena técnica.
+
+No utilizar levantamientos olímpicos pesados bajo fatiga extrema.
+
+==================================================
+FINISHER
+==================================================
+
+CAMBIO MUY IMPORTANTE.
+
+NUNCA usar solamente bicicleta como finisher.
+
+La bicicleta de spinning es una estación más.
+
+Todos los finishers deben ser:
+
+- AMRAP
+- FOR TIME
+- CHIPPER
+- CIRCUITO POR VUELTAS
+- LADDER
+- formato mixto equivalente
+
+Debe mezclar varias capacidades.
+
+Ejemplo:
+
+AMRAP 10':
+
+- Bike 40"
+- 10 KB Swings
+- 8 Burpees
+- 12 Medicine Ball Slams
+- 10 Reverse Lunges
+- 40 Jump Rope
+
+Otro:
+
+FOR TIME — 4 vueltas:
+
+- 200 m Run
+- 10 Goblet Squats
+- 10 Push Ups
+- 12 KB Swings
+- 10 MB Slams
+
+Otro:
+
+CHIPPER:
+
+- 100 Jump Rope
+- 40 KB Swings
+- 30 Lunges
+- 20 Burpees
+- 20 MB Slams
+- 400 m Run
+
+Objetivo:
+
+RPE 8–9.
+
+Debe levantar claramente las pulsaciones.
+
+==================================================
+VUELTA A LA MANZANA
+==================================================
+
+Mantener exactamente la funcionalidad existente.
+
+Puede aparecer:
+
+- después de Fuerza
+- después de Atleta
+
+No inventarla automáticamente en todos los días.
+
+Debe conservar:
+
+- cronómetro
+- tiempo
+- RPE
+- estado completado
+- historial
+- timeline
+
+La vuelta puede tener intensidad:
+
+- suave
+- sostenida
+- fuerte controlada
+
+No debe ser sprint máximo.
+
+==================================================
+SPINNING BIKE
+==================================================
+
+Mantener Spinning Bike como equipamiento disponible.
+
+Puede usarse:
+
+- dentro de finishers
+- zona 2
+- cardio de recuperación
+- intervalos
+- circuitos híbridos
+
+Pero:
+
+NO usar bicicleta sola como finisher principal.
+
+NO reemplazar automáticamente:
+
+- running
+- sprint
+- shuttle
+- jump rope
+- vuelta a la manzana
+
+==================================================
+CONTROL DE REPETICIÓN DE PATRONES
+==================================================
+
+Mantener el análisis de patrones.
+
+Evitar sesiones como:
+
+Bench Press
++
+Push Up
++
+Push Up explosivo
++
+Push Up en finisher
+
+o:
+
+TRX Row
++
+Power Pull
++
+TRX Row en finisher
+
+Analizar patrones:
+
+- push
+- pull
+- squat
+- hinge
+- unilateral
+- rotation
+- antirotation
+- jump
+- sprint
+- carry
+
+IMPORTANTE:
+
+El sistema puede mostrar una alerta si hay repetición excesiva.
+
+Pero NO debe modificar automáticamente una rutina ya aprobada.
+
+==================================================
+SEMANA OBJETIVO
+==================================================
+
+La programación debe priorizar:
+
+Lunes:
+Lower + Power
+
+Martes:
+Upper + Surf preparation
+
+Miércoles:
+Engine + Mobility
+
+Jueves:
+Full Body + Golf preparation
+
+Viernes:
+Athletic Hybrid
+
+Sábado:
+Zone 2 / Outdoor / Running / Golf / Mobility
+
+Domingo:
+Rest
+
+==================================================
+PERIODIZACIÓN
+==================================================
+
+El objetivo es trabajar durante aproximadamente 4 meses.
+
+Usar fases:
+
+Semanas 1–4
+BASE
+
+Semanas 5–8
+BUILD
+
+Semanas 9–12
+ATHLETIC
+
+Semanas 13–16
+SURF + GOLF READY
+
+IMPORTANTE:
+
+Si el proyecto actual ya tiene un sistema mensual o una fecha de inicio fija:
+
+ADAPTAR esta lógica al sistema existente.
+
+NO reemplazarlo por un macro ciclo nuevo que empiece desde hoy.
+
+NO resetear el calendario.
+
+NO alterar historial existente.
+
+==================================================
+REGLA DE MIGRACIÓN
+==================================================
+
+Antes de tocar código:
+
+1. Identificar dónde vive la rutina actual.
+2. Identificar cómo funciona la rutina mensual.
+3. Identificar la fecha fija de inicio.
+4. Identificar cómo se guarda el historial.
+5. Identificar las migraciones actuales.
+6. Actualizar solamente los datos y reglas necesarios.
+7. Preservar compatibilidad con sesiones antiguas.
+
+Si el schema necesita nuevos campos:
+
+hacer una migración incremental.
+
+NO borrar campos antiguos.
+
+NO resetear localStorage.
+
+==================================================
+VALIDACIÓN FINAL
+==================================================
+
+Antes de terminar verificar:
+
+- TIDE sigue teniendo el mismo branding.
+- El historial no se pierde.
+- La fecha de inicio no cambia.
+- El calendario actual sigue funcionando.
+- La rutina mensual sigue funcionando.
+- Vuelta a la manzana sigue funcionando.
+- Coach Mode sigue funcionando.
+- Timeline sigue funcionando.
+- La bicicleta aparece como equipamiento.
+- Los finishers son siempre mixtos.
+- El bloque Atleta es más dinámico.
+- No hay repeticiones absurdas de patrones.
+- No hay ejercicios incompatibles con el equipamiento.
+- npm run build compila.
+- No hay errores TypeScript.
+
+NO reemplazar archivos completos si una modificación puntual es suficiente.
+
+Hacer cambios incrementales sobre el proyecto actual.

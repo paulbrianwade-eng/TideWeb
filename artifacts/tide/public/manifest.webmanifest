@@ -1,0 +1,15 @@
+{
+  "name": "TIDE · High Performance Training System",
+  "short_name": "TIDE",
+  "description": "Sistema de entrenamiento diario: qué te toca hoy, cómo registrarlo y cómo vas.",
+  "id": "/tide/",
+  "start_url": "/tide/",
+  "scope": "/tide/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0D0F",
+  "theme_color": "#0B0D0F",
+  "icons": [
+    { "src": "/tide/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

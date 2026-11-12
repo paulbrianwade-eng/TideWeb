@@ -1,0 +1,4 @@
+- [TIDE typecheck under load](tide-typecheck-env.md) — tsc can stall >115s when all dev workflows run; verify via Vite HMR + architect instead.
+- [Vercel pnpm monorepo deploy](vercel-pnpm-monorepo-deploy.md) — deploy one artifact via root vercel.json + Root Directory = repo root, not the subfolder.
+- [TIDE exercise-id invariant](tide-exercise-id-invariant.md) — exercise ids must be globally unique; checks/loads key on them across the whole week.
+- [Reload persistence tests](reload-persistence-tests.md) — clear localStorage once after initial navigation; an init-script clear runs again on reload and creates false data-loss failures.
