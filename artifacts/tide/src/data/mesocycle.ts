@@ -5,7 +5,10 @@ import { getExercise } from './exercises';
 // The attached routine is plain JavaScript; keep its programming source intact
 // and adapt its legacy week shape to TIDE's current workout model here.
 // @ts-ignore The user-supplied source has no TypeScript declaration file.
-import { weeks as sourceWeeks, weekLabels as sourceWeekLabels } from './mesocycle-source.js';
+import { weeks as sourceWeeks, weekLabels as sourceWeekLabels, MESO_START as sourceMesoStart } from './mesocycle-source.js';
+
+/** Lunes de inicio del mesociclo (definido en mesocycle-source.js). */
+export const MESO_START = sourceMesoStart as string;
 
 interface SourceExercise {
   name: string;

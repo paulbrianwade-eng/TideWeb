@@ -6,7 +6,7 @@ import { Card, Field, SectionTitle, Toggle } from '../components/ui';
 import { ExportButton } from '../components/ExportButton';
 import { CloudSyncCard } from '../components/CloudSyncCard';
 import { PhaseEditor, RaceDateCard } from '../components/PhaseEditor';
-import { FOUR_WEEK_PLAN_ID } from '../data/mesocycle';
+import { FOUR_WEEK_PLAN_ID, MESO_START } from '../data/mesocycle';
 
 export const ProfileScreen = ({ onPlanRestarted }: { onPlanRestarted: () => void }) => {
   const app = useApp();
@@ -33,12 +33,12 @@ export const ProfileScreen = ({ onPlanRestarted }: { onPlanRestarted: () => void
       <Card className="space-y-3 border-brand/30">
         <SectionTitle eyebrow="Rutina nueva · 4 semanas" title="Base, carga, pico y benchmark" />
         <p className="text-sm text-muted">
-          La secuencia de cuatro semanas se repite cuatro veces en el calendario de 16 semanas de TIDE. Empieza hoy y conserva
+          La secuencia de cuatro semanas se repite cuatro veces en el calendario de 16 semanas de TIDE. Se alinea al lunes 2/11 (cada día cae en su día real) y conserva
           el historial, las sesiones, el perfil y las mediciones. Las cargas aproximadas son objetivos sugeridos, no resultados.
         </p>
-        {app.state.activePlan === FOUR_WEEK_PLAN_ID && app.state.programStart === app.today ? (
+        {app.state.activePlan === FOUR_WEEK_PLAN_ID && app.state.programStart === MESO_START ? (
           <p className="rounded-xl bg-lime-soft px-3 py-2 text-sm text-brand-dark" role="status">
-            Este mesociclo ya está activo desde hoy.
+            Este mesociclo está activo (arrancó el lunes 2/11).
           </p>
         ) : confirmMesocycle ? (
           <div className="space-y-2 rounded-xl border border-brand/20 bg-surface2 p-3">
@@ -72,7 +72,7 @@ export const ProfileScreen = ({ onPlanRestarted }: { onPlanRestarted: () => void
             onClick={() => { setMesocycleMessage(''); setConfirmMesocycle(true); }}
             data-testid="button-integrate-mesocycle"
           >
-            <RefreshCw className="h-4 w-4" aria-hidden="true" /> Integrar mesociclo desde hoy
+            <RefreshCw className="h-4 w-4" aria-hidden="true" /> Activar mesociclo (desde el lunes 2/11)
           </button>
         )}
         {mesocycleMessage && <p className="text-sm text-ink" role="status">{mesocycleMessage}</p>}

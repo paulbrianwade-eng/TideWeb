@@ -27,7 +27,7 @@ import {
   integrateFourWeekMesocycle,
   resetPlanFromDate,
 } from '../lib/plan-reset';
-import { FOUR_WEEK_PLAN_ID } from '../data/mesocycle';
+import { FOUR_WEEK_PLAN_ID, MESO_START } from '../data/mesocycle';
 
 type Action =
   | { type: 'profile'; payload: Partial<UserProfile> }
@@ -463,8 +463,11 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
     },
     integrateFourWeekMesocycleFromToday: () => {
       const current = stateRef.current;
-      if (current.activePlan === FOUR_WEEK_PLAN_ID && current.programStart === today) {
-        return { ok: false, message: 'El mesociclo ya está activo desde hoy; no se modificó.' };
+      // Anclado al lunes de inicio del mesociclo para que cada día caiga en su día real
+      // (lunes = Push, etc.) y la semana coincida con la que se manda al reloj.
+      const start = MESO_START <= today ? MESO_START : today;
+      if (current.activePlan === FOUR_WEEK_PLAN_ID && current.programStart === start) {
+        return { ok: false, message: 'El mesociclo ya está activo; no se modificó.' };
       }
       if (getStorageProblem()) {
         return { ok: false, message: 'No se pudo leer el almacenamiento. Exportá tus datos; el plan no se modificó.' };
@@ -479,7 +482,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
         };
       }
 
-      const next = reducer(current, { type: 'integrateMesocycle', date: today });
+      const next = reducer(current, { type: 'integrateMesocycle', date: start });
       saveState(next);
       const storageError = getStorageProblem();
       setStorageError(storageError);
@@ -488,7 +491,7 @@ export const AppProvider = ({ children }: { children: ReactNode }) => {
       }
       stateRef.current = next;
       setState(next);
-      return { ok: true, message: 'Mesociclo de 4 semanas integrado desde hoy. Historial y perfil conservados; se descargó un respaldo.' };
+      return { ok: true, message: 'Mesociclo de 4 semanas integrado (alineado al lunes 2/11). Historial y perfil conservados; se descargó un respaldo.' };
     },
     emptySet: () => ({ done: false }),
     workoutById,
