@@ -391,6 +391,8 @@ export interface AppState {
   v8From?: string;
   /** Active programming model; absent/unknown legacy values continue to use V8. */
   activePlan?: 'v8' | 'home-mesocycle-4week';
+  /** true cuando ya se pasó una vez al mesociclo de 4 semanas (no se vuelve a forzar). */
+  mesoAutoApplied?: boolean;
   schedule?: Record<string, string>;
   skippedWorkouts?: string[];
   phaseSettings?: { names: string[]; deloadWeeks: number[] };

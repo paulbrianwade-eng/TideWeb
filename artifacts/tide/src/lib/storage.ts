@@ -2,6 +2,7 @@ import type { AppState } from '../types';
 import { DEFAULT_PROFILE } from '../data/defaults';
 import { rekeyLegacySessions } from './legacy-set-keys';
 import { buildV7 } from '../data/v7';
+import { FOUR_WEEK_PHASES, FOUR_WEEK_PLAN_ID, MESO_START } from '../data/mesocycle';
 import { todayISO } from './date';
 import { notifyLocalSave } from './cloud-sync';
 
@@ -11,12 +12,13 @@ export const FIXED_PROGRAM_START = '2026-10-12';
 
 export const emptyState = (): AppState => ({
   version: STATE_VERSION,
-  activePlan: 'v8',
-  programStart: FIXED_PROGRAM_START,
-  v8From: todayISO(),
+  activePlan: FOUR_WEEK_PLAN_ID,
+  mesoAutoApplied: true,
+  programStart: MESO_START,
+  v8From: MESO_START,
   schedule: {},
   skippedWorkouts: [],
-  phaseSettings: { names: ['FOUNDATION', 'BUILD', 'HYBRID', 'RACE PREP'], deloadWeeks: [4, 8, 12, 16] },
+  phaseSettings: { names: [...FOUR_WEEK_PHASES], deloadWeeks: [4, 8, 12, 16] },
   profile: { ...DEFAULT_PROFILE },
   readiness: {},
   adjustments: {},
@@ -36,7 +38,32 @@ export const emptyState = (): AppState => ({
  * Se conserva historial, sesiones, métricas y perfil. La fecha del programa se
  * ancla una sola vez al inicio acordado: nunca se recalcula desde "hoy".
  */
-export const migrate = (parsed: Partial<AppState>): AppState => {
+/**
+ * Paso único al mesociclo de 4 semanas (pedido por Paul): si el estado todavía está en V8
+ * y nunca se aplicó, se cambia al mesociclo anclado al lunes MESO_START. Conserva historial,
+ * sesiones, perfil y mediciones. Si después alguien vuelve a V8 a mano, se respeta.
+ */
+const applyMesocycleOnce = (state: AppState): AppState => {
+  if (state.mesoAutoApplied) return state;
+  if (state.activePlan === FOUR_WEEK_PLAN_ID) return { ...state, mesoAutoApplied: true };
+  return {
+    ...state,
+    mesoAutoApplied: true,
+    activePlan: FOUR_WEEK_PLAN_ID,
+    programStart: MESO_START,
+    v8From: MESO_START,
+    schedule: {},
+    skippedWorkouts: [],
+    phaseSettings: { names: [...FOUR_WEEK_PHASES], deloadWeeks: [4, 8, 12, 16] },
+    calendarOverrides: Object.fromEntries(
+      Object.entries(state.calendarOverrides ?? {}).filter(([entryDate]) => entryDate < MESO_START),
+    ),
+  };
+};
+
+export const migrate = (parsed: Partial<AppState>): AppState => applyMesocycleOnce(migrateBase(parsed));
+
+const migrateBase = (parsed: Partial<AppState>): AppState => {
   const base = emptyState();
   const sessions = (parsed.version ?? 0) >= 4
     ? parsed.sessions ?? {}
@@ -51,6 +78,8 @@ export const migrate = (parsed: Partial<AppState>): AppState => {
     ...base,
     ...parsed,
     version: STATE_VERSION,
+    // No heredar el flag del estado vacío: solo cuenta si el estado guardado ya lo tenía.
+    mesoAutoApplied: parsed.mesoAutoApplied,
     profile: { ...DEFAULT_PROFILE, ...parsed.profile },
     // Lo que se conserva sí o sí entre versiones:
     history: parsed.history ?? [],
@@ -80,6 +109,10 @@ export const loadState = (): AppState => {
     if (parsed.version !== STATE_VERSION) {
       // A failed backup blocks writes; never silently destroy the only copy.
       window.localStorage.setItem(`${STORAGE_KEY}.before-v8`, raw);
+    }
+    if (!parsed.mesoAutoApplied && parsed.activePlan !== FOUR_WEEK_PLAN_ID) {
+      // Respaldo local antes del paso único al mesociclo de 4 semanas.
+      window.localStorage.setItem(`${STORAGE_KEY}.before-meso`, raw);
     }
     // Versión distinta: migramos en vez de borrar.
     return migrate(parsed);
