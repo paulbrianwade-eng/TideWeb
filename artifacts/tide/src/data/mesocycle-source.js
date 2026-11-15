@@ -11,7 +11,8 @@
 // IDs: s[semana]-[día]-[bloque]-[n]  ·  días: l, ma, mi, j, v, sa, d
 // 1RM asumidos (cambiar cuando tengas datos reales):
 //   Bench 76 · Back Squat 105 · Front Squat 85 · Deadlift 140 (techo de discos 90)
-//   Strict Press 52 · Push Press 62 · Incline 65 · Bent Over Row 80
+//   Strict Press ~42 · Push Press ~52 · Incline 65 · Bent Over Row 80
+//   (15/11: Push Press recalculado con dato real 5×8 @40 kg, Epley ≈ 51-53; Strict ≈ Push Press / 1.25)
 // =====================================================================
 
 // Fecha de inicio del mesociclo (lunes). Antes de esta fecha se muestra S1.
@@ -629,7 +630,7 @@ const week3 = [
     title: 'Push · Z-Press',
     subtitle: 'S3 Pico · Barbell Z-Press + escalera',
     duration: 47, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
-    intro: 'Z-Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
+    intro: 'Z-Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos y el híbrido hasta el último segundo de los 24\'.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
         exercises: [
@@ -643,7 +644,7 @@ const week3 = [
         ] },
       { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
-          { id: 's3-v-2-1', name: 'Barbell Z-Press', reps: '5 reps', target: '~35 kg', detail: '~80% de tu Z-press estimado. Sentado, piernas extendidas, sin inclinarte atrás. Antes: 2 series de aproximación.' },
+          { id: 's3-v-2-1', name: 'Barbell Z-Press', reps: '5 reps', target: '~27.5-30 kg', detail: '~80% de tu Z-press estimado (≈35 kg, recalculado con tu push press real de 40 kg × 8). Sentado, piernas extendidas, sin inclinarte atrás. Si las 5 rondas salen RPE ≤7, subí a 32.5 kg. Antes: 2 series de aproximación.' },
           { id: 's3-v-2-2', name: 'MB Overhead Throw contra pared', reps: '6 reps', target: 'MB 5 kg', detail: 'Explosivo. Explosivo desde los pies.' },
           { id: 's3-v-2-3', name: 'Half-Kneeling KB Press', reps: '8/8 reps', target: 'KB 12', detail: 'Glúteo de la rodilla apoyada apretado.' },
         ] },
