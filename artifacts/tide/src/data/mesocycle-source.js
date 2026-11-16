@@ -94,7 +94,7 @@ const week1 = [
           { id: 's1-ma-2-2', name: 'Russian Swing pesado', reps: '10 reps', target: 'KB 20', detail: 'Explosivo. Cadera explosiva, KB a la altura del pecho.' },
           { id: 's1-ma-2-3', name: 'TRX Row', reps: '12 reps', detail: 'Pausa 1 seg con pecho a las manijas.' },
         ] },
-      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'Every 2\' × 12 · rotar A / B / C / D (D = core)',
+      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'AMRAP 24\' · A → B → C → D seguido, sin descanso (D = core)',
         exercises: [
           { id: 's1-ma-3-1', name: 'SKB Hang Clean', reps: 'A · 6/6 reps', target: 'KB 20', detail: 'Codo pegado, recepción suave.' },
           { id: 's1-ma-3-2', name: 'Burpee', reps: 'A · 6 reps', detail: 'Pecho al piso.' },
@@ -285,7 +285,7 @@ const week2 = [
           { id: 's2-l-2-2', name: 'MB Chest Pass contra pared', reps: '8 reps', target: 'MB 5 kg', detail: 'Explosivo. Pase de pecho explosivo, recibí y repetí.' },
           { id: 's2-l-2-3', name: 'TRX Chest Fly', reps: '10 reps', detail: 'Sustituye DDB Chest Flys. Brazos semi-flexionados.' },
         ] },
-      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'Every 2\' × 12 · rotar A / B / C / D (D = core)',
+      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'AMRAP 24\' · A → B → C → D seguido, sin descanso (D = core)',
         exercises: [
           { id: 's2-l-3-1', name: 'DKB Push Press', reps: 'A · 10 reps', target: '2 × KB 12', detail: 'Sustituye DDB Push Press.' },
           { id: 's2-l-3-2', name: 'Burpees', reps: 'A · 6 reps', detail: 'Pecho al piso.' },
@@ -779,7 +779,7 @@ const week4 = [
           { id: 's4-ma-2-2', name: 'Russian Swing pesado', reps: '12 reps', target: 'KB 20', detail: 'Explosivo. Cadera explosiva, sin tirar con brazos.' },
           { id: 's4-ma-2-3', name: 'TRX Row', reps: '12 reps', detail: 'Pausa 2 seg arriba.' },
         ] },
-      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'Every 2\' × 12 · rotar A / B / C / D (D = core)',
+      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'AMRAP 24\' · A → B → C → D seguido, sin descanso (D = core)',
         exercises: [
           { id: 's4-ma-3-1', name: 'SKB Hang Clean', reps: 'A · 5/5 reps', target: 'KB 20', detail: 'Recepción suave.' },
           { id: 's4-ma-3-2', name: 'Burpee', reps: 'A · 5 reps', detail: 'Pecho al piso.' },
