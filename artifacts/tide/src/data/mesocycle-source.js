@@ -551,7 +551,7 @@ const week3 = [
           { id: 's3-ma-2-2', name: 'Broad Jump', reps: '4 reps', detail: 'Explosivo. Clavá la recepción, caminá de vuelta.' },
           { id: 's3-ma-2-3', name: 'Single-Arm KB Bent Over Row', reps: '10/10 reps', target: 'KB 20', detail: 'Sustituye Single-Arm DB Row. Mano en el banco.' },
         ] },
-      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'Every 2\' × 12 · rotar A / B / C / D (D = core)',
+      { type: 'metcon', title: 'Hybrid Long', duration: 24, format: 'AMRAP 24\' · A → B → C → D seguido, sin descanso (D = core)',
         exercises: [
           { id: 's3-ma-3-1', name: 'Barbell Power Clean', reps: 'A · 4 reps', target: '~45-50 kg', detail: 'Del piso, recepción en cuarto de sentadilla.' },
           { id: 's3-ma-3-2', name: 'Burpee', reps: 'A · 6 reps', detail: 'Pecho al piso.' },
@@ -559,7 +559,7 @@ const week3 = [
           { id: 's3-ma-3-4', name: 'Lateral Bounds', reps: 'B · 10 reps', detail: 'Clavá la recepción.' },
           { id: 's3-ma-3-5', name: 'DKB Bent Over Row', reps: 'C · 10 reps', target: '2 × KB 20', detail: 'Espalda plana.' },
           { id: 's3-ma-3-6', name: 'Skipping', reps: 'C · 30 seg', detail: 'Rodillas altas.' },
-          { id: 's3-ma-3-7', name: 'Run', reps: 'A · 200 m', detail: 'Ritmo fuerte y sostenible.' },
+          { id: 's3-ma-3-7', name: 'Run', reps: 'A · 200 m', detail: 'Cierra el bloque A, después de los burpees. Ritmo fuerte y sostenible.' },
           { id: 's3-ma-3-8', name: 'Dead Bug Progressions', reps: 'D · 8/8 reps', detail: 'Core. Brazo y pierna contrarios, exhalá al extender.' },
           { id: 's3-ma-3-9', name: 'Flutter Kicks', reps: 'D · 30 reps', detail: 'Core. Patadas cortas y rápidas.' },
         ] },
