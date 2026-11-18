@@ -37,7 +37,7 @@ const week1 = [
     id: 'lun', day: 'L', name: 'Lunes', type: 'bigg',
     title: 'Push · Bench',
     subtitle: 'S1 Base · Bench Press + metcon de empuje',
-    duration: 47, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
     intro: 'Bench Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -50,7 +50,7 @@ const week1 = [
           { id: 's1-l-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's1-l-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's1-l-2-1', name: 'Barbell Bench Press', reps: '6 reps', target: '~55 kg', detail: '72% 1RM. RPE 8, 1-2 reps en reserva. Pausa breve en el pecho. Antes: 2 series de aproximación.' },
           { id: 's1-l-2-2', name: 'Plyo Push Ups', reps: '6 reps', detail: 'Explosivo. Despegá las manos del piso; recepción suave.' },
@@ -75,7 +75,7 @@ const week1 = [
     id: 'mar', day: 'M', name: 'Martes', type: 'bigg',
     title: 'Run + Pull · Deadlift',
     subtitle: 'S1 Base · Deadlift + metcon cada 90 seg',
-    duration: 47, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
     intro: 'Deadlift + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -88,7 +88,7 @@ const week1 = [
           { id: 's1-ma-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's1-ma-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's1-ma-2-1', name: 'Barbell Deadlift', reps: '6 reps', target: '90 kg (tope)', detail: 'Techo de discos (~64%). Bajada en 3 seg para subir el estímulo. Antes: 2 series de aproximación.' },
           { id: 's1-ma-2-2', name: 'Russian Swing pesado', reps: '10 reps', target: 'KB 20', detail: 'Explosivo. Cadera explosiva, KB a la altura del pecho.' },
@@ -112,7 +112,7 @@ const week1 = [
     id: 'mie', day: 'X', name: 'Miércoles', type: 'bigg',
     title: 'Legs · Back Squat',
     subtitle: 'S1 Base · Back Squat + metcon de piernas',
-    duration: 47, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
     intro: 'Back Squat + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -125,7 +125,7 @@ const week1 = [
           { id: 's1-mi-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's1-mi-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's1-mi-2-1', name: 'Barbell Back Squat', reps: '6 reps', target: '~75 kg', detail: '72% 1RM. Profundidad bajo paralelo, RPE 8. Antes: 2 series de aproximación.' },
           { id: 's1-mi-2-2', name: 'Broad Jump', reps: '4 reps', detail: 'Explosivo. Salto largo máximo, clavá la recepción 1 seg.' },
@@ -172,7 +172,7 @@ const week1 = [
     id: 'vie', day: 'V', name: 'Viernes', type: 'bigg',
     title: 'Push · Shoulder Press',
     subtitle: 'S1 Base · Strict Press + escalera ascendente',
-    duration: 47, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
     intro: 'Shoulder Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -185,7 +185,7 @@ const week1 = [
           { id: 's1-v-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's1-v-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's1-v-2-1', name: 'Barbell Shoulder Press', reps: '6 reps', target: '~37.5 kg', detail: '72% 1RM. Glúteos apretados, sin arquear. Antes: 2 series de aproximación.' },
           { id: 's1-v-2-2', name: 'MB Overhead Throw contra pared', reps: '6 reps', target: 'MB 5 kg', detail: 'Explosivo. Lanzamiento explosivo tipo line-out.' },
@@ -209,7 +209,7 @@ const week1 = [
     id: 'sab', day: 'S', name: 'Sábado', type: 'bigg',
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S1 Base · Front Rack Lunges + Hyrox 4 rondas',
-    duration: 55, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
+    duration: 52, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
     intro: 'Front Rack Lunges + explosivo + accesorio, y un híbrido largo de 32\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -222,7 +222,7 @@ const week1 = [
           { id: 's1-sa-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's1-sa-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's1-sa-2-1', name: 'Barbell Front Rack Lunges', reps: '6/6 reps', target: '~45 kg', detail: 'Codos altos, rodilla roza el piso. Antes: 2 series de aproximación.' },
           { id: 's1-sa-2-2', name: 'Rotational Jump 90°', reps: '4/4 reps', detail: 'Explosivo. Aterrizá suave, rodillas alineadas.' },
@@ -266,7 +266,7 @@ const week2 = [
     id: 'lun', day: 'L', name: 'Lunes', type: 'bigg',
     title: 'Push · Incline Bench',
     subtitle: 'S2 Carga · Incline Bench + every 90 seg',
-    duration: 47, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
     intro: 'Incline Bench Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -279,7 +279,7 @@ const week2 = [
           { id: 's2-l-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's2-l-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's2-l-2-1', name: 'Barbell Incline Bench Press', reps: '5 reps', target: '~50 kg', detail: '~77% 1RM inclinado (banco 30-45°). RPE 8-8.5. Antes: 2 series de aproximación.' },
           { id: 's2-l-2-2', name: 'MB Chest Pass contra pared', reps: '8 reps', target: 'MB 5 kg', detail: 'Explosivo. Pase de pecho explosivo, recibí y repetí.' },
@@ -303,7 +303,7 @@ const week2 = [
     id: 'mar', day: 'M', name: 'Martes', type: 'bigg',
     title: 'Run + Pull · Bent Over Row',
     subtitle: 'S2 Carga · Barbell Row + AMRAP olímpico',
-    duration: 47, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
     intro: 'Bent Over Row + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -316,7 +316,7 @@ const week2 = [
           { id: 's2-ma-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's2-ma-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's2-ma-2-1', name: 'Barbell Bent Over Row', reps: '8 reps', target: '~60 kg', detail: '~77% 1RM. Torso a 45°, barra al ombligo. Antes: 2 series de aproximación.' },
           { id: 's2-ma-2-2', name: 'Explosive KB Single-Arm Clean', reps: '4/4 reps', target: 'KB 20', detail: 'Explosivo. Máxima velocidad de cadera.' },
@@ -340,7 +340,7 @@ const week2 = [
     id: 'mie', day: 'X', name: 'Miércoles', type: 'bigg',
     title: 'Legs · Hip Thrust',
     subtitle: 'S2 Carga · Hip Thrust + 21-15-9',
-    duration: 47, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
     intro: 'Hip Thrust + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -353,7 +353,7 @@ const week2 = [
           { id: 's2-mi-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's2-mi-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's2-mi-2-1', name: 'Barbell Hip Thrust', reps: '10 reps', target: '90 kg (tope)', detail: 'Techo de discos. Pausa 2 seg arriba en cada rep. Antes: 2 series de aproximación.' },
           { id: 's2-mi-2-2', name: 'Single-Leg Box Jump', reps: '3/3 reps', detail: 'Explosivo. Cajón bajo, recepción a dos pies.' },
@@ -401,7 +401,7 @@ const week2 = [
     id: 'vie', day: 'V', name: 'Viernes', type: 'bigg',
     title: 'Push · Push Press',
     subtitle: 'S2 Carga · Push Press + AMRAP overhead',
-    duration: 47, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
     intro: 'Push Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -414,7 +414,7 @@ const week2 = [
           { id: 's2-v-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's2-v-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's2-v-2-1', name: 'Barbell Push Press', reps: '5 reps', target: '~48-50 kg', detail: '~77-80% 1RM push press. Dip corto, drive explosivo. Antes: 2 series de aproximación.' },
           { id: 's2-v-2-2', name: 'MB Hip Rotation Toss', reps: '5/5 reps', target: 'MB 5 kg', detail: 'Explosivo. Contra pared, la cadera inicia el giro (golf/rugby).' },
@@ -438,7 +438,7 @@ const week2 = [
     id: 'sab', day: 'S', name: 'Sábado', type: 'bigg',
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S2 Carga · Hang Squat Clean + Hyrox 4 rondas',
-    duration: 55, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
+    duration: 52, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
     intro: 'Hang Squat Clean + explosivo + accesorio, y un híbrido largo de 32\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -451,7 +451,7 @@ const week2 = [
           { id: 's2-sa-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's2-sa-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's2-sa-2-1', name: 'Barbell Hang Squat Clean', reps: '5 reps', target: '~45-50 kg', detail: 'Recepción en sentadilla profunda. Antes: 2 series de aproximación.' },
           { id: 's2-sa-2-2', name: 'Broad Jump to Sprint', reps: '3 reps', detail: 'Explosivo. Salto largo + 10 m de sprint.' },
@@ -723,7 +723,7 @@ const week4 = [
     id: 'lun', day: 'L', name: 'Lunes', type: 'bigg',
     title: 'Push · Close-Grip Bench',
     subtitle: 'S4 Reset · Close-Grip tempo + rondas',
-    duration: 47, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
     intro: 'Close-Grip Bench Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -736,7 +736,7 @@ const week4 = [
           { id: 's4-l-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's4-l-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's4-l-2-1', name: 'Barbell Close-Grip Bench Press', reps: '8 reps', target: '~47.5-50 kg', detail: '~65% 1RM bench. Tempo 3-1-1, codos pegados. Antes: 2 series de aproximación.' },
           { id: 's4-l-2-2', name: 'MB Chest Pass contra pared', reps: '8 reps', target: 'MB 5 kg', detail: 'Explosivo. Pase de pecho explosivo.' },
@@ -760,7 +760,7 @@ const week4 = [
     id: 'mar', day: 'M', name: 'Martes', type: 'bigg',
     title: 'Run + Pull · RDL',
     subtitle: 'S4 Reset · Romanian Deadlift + every 90 seg',
-    duration: 47, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
     intro: 'Romanian Deadlift + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -773,7 +773,7 @@ const week4 = [
           { id: 's4-ma-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's4-ma-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's4-ma-2-1', name: 'Barbell Romanian Deadlift', reps: '8 reps', target: '~70 kg', detail: 'Bajada 3 seg, barra pegada a las piernas, estiramiento de isquio. Antes: 2 series de aproximación.' },
           { id: 's4-ma-2-2', name: 'Russian Swing pesado', reps: '12 reps', target: 'KB 20', detail: 'Explosivo. Cadera explosiva, sin tirar con brazos.' },
@@ -797,7 +797,7 @@ const week4 = [
     id: 'mie', day: 'X', name: 'Miércoles', type: 'bigg',
     title: 'Legs · Paused Squat',
     subtitle: 'S4 Reset · Back Squat con pausa + 21-15-9',
-    duration: 47, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
     intro: 'Back Squat (pausa) + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -810,7 +810,7 @@ const week4 = [
           { id: 's4-mi-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's4-mi-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's4-mi-2-1', name: 'Barbell Back Squat (pausa)', reps: '5 reps', target: '~67.5 kg', detail: '~65% 1RM. Pausa 2 seg abajo sin rebotar. Antes: 2 series de aproximación.' },
           { id: 's4-mi-2-2', name: 'Single-Leg Box Jump', reps: '3/3 reps', detail: 'Explosivo. Cajón bajo, recepción estable.' },
@@ -858,7 +858,7 @@ const week4 = [
     id: 'vie', day: 'V', name: 'Viernes', type: 'bigg',
     title: 'Push · Strict Press + Rotación',
     subtitle: 'S4 Reset · Strict Press tempo + escalera',
-    duration: 47, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
     intro: 'Shoulder Press (tempo) + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -871,7 +871,7 @@ const week4 = [
           { id: 's4-v-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's4-v-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's4-v-2-1', name: 'Barbell Shoulder Press (tempo)', reps: '6 reps', target: '~34 kg', detail: '~65% 1RM. Bajada en 3 seg. Antes: 2 series de aproximación.' },
           { id: 's4-v-2-2', name: 'MB Hip Rotation Toss', reps: '5/5 reps', target: 'MB 5 kg', detail: 'Explosivo. La cadera inicia el giro.' },
@@ -895,7 +895,7 @@ const week4 = [
     id: 'sab', day: 'S', name: 'Sábado', type: 'bigg',
     title: 'HYBRID · Hyrox Benchmark',
     subtitle: 'S4 · Benchmark Hyrox Home (registrá el tiempo)',
-    duration: 55, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
+    duration: 52, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
     intro: 'Hang Power Clean + explosivo + accesorio, y un híbrido largo de 32\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -908,7 +908,7 @@ const week4 = [
           { id: 's4-sa-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's4-sa-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's4-sa-2-1', name: 'Barbell Hang Power Clean', reps: '5 reps', target: '~45 kg', detail: 'Rápido y limpio, sin fatigar para el benchmark. Antes: 2 series de aproximación.' },
           { id: 's4-sa-2-2', name: 'Rotational Jump 90°', reps: '4/4 reps', detail: 'Explosivo. Recepción suave y estable.' },
