@@ -493,7 +493,7 @@ const week3 = [
     id: 'lun', day: 'L', name: 'Lunes', type: 'bigg',
     title: 'Push · Bench Heavy',
     subtitle: 'S3 Pico · Bench pesado + rondas descendentes',
-    duration: 47, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80',
     intro: 'Bench Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -506,7 +506,7 @@ const week3 = [
           { id: 's3-l-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's3-l-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's3-l-2-1', name: 'Barbell Bench Press', reps: '3 reps', target: '~62.5-65 kg', detail: '82-85% 1RM. RPE 9, 1 rep en reserva. Si la última ronda sale lenta, bajá 2.5 kg. Antes: 2 series de aproximación.' },
           { id: 's3-l-2-2', name: 'Plyo Push Ups', reps: '6 reps', detail: 'Explosivo. Máxima altura, recepción con codos suaves.' },
@@ -530,7 +530,7 @@ const week3 = [
     id: 'mar', day: 'M', name: 'Martes', type: 'bigg',
     title: 'Run + Pull · Snatch Grip DL',
     subtitle: 'S3 Pico · Snatch Grip Deadlift + every 90 seg',
-    duration: 47, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80',
     intro: 'Snatch Grip Deadlift + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -543,7 +543,7 @@ const week3 = [
           { id: 's3-ma-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's3-ma-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's3-ma-2-1', name: 'Barbell Snatch Grip Deadlift', reps: '6 reps', target: '~80 kg', detail: 'Agarre amplio, pecho arriba. Pausa 1 seg bajo rodilla en la rep 1. Antes: 2 series de aproximación.' },
           { id: 's3-ma-2-2', name: 'Broad Jump', reps: '4 reps', detail: 'Explosivo. Clavá la recepción, caminá de vuelta.' },
@@ -567,7 +567,7 @@ const week3 = [
     id: 'mie', day: 'X', name: 'Miércoles', type: 'bigg',
     title: 'Legs · Front Squat',
     subtitle: 'S3 Pico · Front Squat + AMRAP de piernas',
-    duration: 47, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&q=80',
     intro: 'Front Squat + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -580,7 +580,7 @@ const week3 = [
           { id: 's3-mi-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's3-mi-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's3-mi-2-1', name: 'Barbell Front Squat', reps: '4 reps', target: '~67.5-70 kg', detail: '80-82% 1RM. Codos altos, RPE 8.5-9. Antes: 2 series de aproximación.' },
           { id: 's3-mi-2-2', name: 'Box Jumps (altura máx)', reps: '5 reps', detail: 'Explosivo. Step down para cuidar tendones.' },
@@ -626,7 +626,7 @@ const week3 = [
     id: 'vie', day: 'V', name: 'Viernes', type: 'bigg',
     title: 'Push · Z-Press',
     subtitle: 'S3 Pico · Barbell Z-Press + escalera',
-    duration: 47, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
+    duration: 44, image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80',
     intro: 'Z-Press + explosivo + accesorio, y un híbrido largo de 24\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos y el híbrido hasta el último segundo de los 24\'.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -639,9 +639,9 @@ const week3 = [
           { id: 's3-v-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's3-v-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
-          { id: 's3-v-2-1', name: 'Barbell Z-Press', reps: '5 reps', target: '~27.5-30 kg', detail: '~80% de tu Z-press estimado (≈35 kg, recalculado con tu push press real de 40 kg × 8). Sentado, piernas extendidas, sin inclinarte atrás. Si las 5 rondas salen RPE ≤7, subí a 32.5 kg. Antes: 2 series de aproximación.' },
+          { id: 's3-v-2-1', name: 'Barbell Z-Press', reps: '5 reps', target: '~27.5-30 kg', detail: '~80% de tu Z-press estimado (≈35 kg, recalculado con tu push press real de 40 kg × 8). Sentado, piernas extendidas, sin inclinarte atrás. Si las 4 rondas salen RPE ≤7, subí a 32.5 kg. Antes: 2 series de aproximación.' },
           { id: 's3-v-2-2', name: 'MB Overhead Throw contra pared', reps: '6 reps', target: 'MB 5 kg', detail: 'Explosivo. Explosivo desde los pies.' },
           { id: 's3-v-2-3', name: 'Half-Kneeling KB Press', reps: '8/8 reps', target: 'KB 12', detail: 'Glúteo de la rodilla apoyada apretado.' },
         ] },
@@ -663,7 +663,7 @@ const week3 = [
     id: 'sab', day: 'S', name: 'Sábado', type: 'bigg',
     title: 'HYBRID · Hyrox Home',
     subtitle: 'S3 Pico · Clean & Jerk + Hyrox 4 rondas',
-    duration: 55, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
+    duration: 52, image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&q=80',
     intro: 'Clean & Jerk + explosivo + accesorio, y un híbrido largo de 32\' con core integrado. Objetivo: ≥300 kcal (Garmin): densidad alta, descansos mínimos.',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Movilidad fija · 7 ejercicios',
@@ -676,7 +676,7 @@ const week3 = [
           { id: 's3-sa-w-6', name: 'Extensión de isquios', reps: '10 reps', detail: 'Desde cuclillas tomando las puntas de los pies, estirá las rodillas sin soltar.' },
           { id: 's3-sa-w-7', name: 'Movimiento de espalda', reps: '10 reps', detail: 'Rotaciones y extensiones torácicas controladas, sin dolor.' },
         ] },
-      { type: 'strength', title: 'Fuerza', duration: 15, format: '5 rondas · cada 3\' · principal → explosivo → accesorio',
+      { type: 'strength', title: 'Fuerza', duration: 12, format: '4 rondas · cada 3\' · principal → explosivo → accesorio',
         exercises: [
           { id: 's3-sa-2-1', name: 'Barbell Clean & Jerk', reps: '4 reps', target: '~45-50 kg', detail: 'Power clean + push jerk. Toque y vuelta. Antes: 2 series de aproximación.' },
           { id: 's3-sa-2-2', name: 'Pogo Jumps', reps: '20 reps', detail: 'Explosivo. Tobillos rígidos, contacto corto.' },
@@ -829,24 +829,24 @@ const week4 = [
   {
     id: 'jue', day: 'J', name: 'Jueves', type: 'run',
     title: 'Run · 30/30',
-    subtitle: 'S4 Reset · 3 series × 6 × 30/30',
+    subtitle: 'S4 Reset · 3 series × 7 × 30/30',
     duration: 38, image: 'https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&q=80',
-    intro: 'Mismo estímulo de velocidad, repartido en 3 bloques más cortos para llegar fresco al benchmark. Objetivo: ≥300 kcal (Garmin).',
+    intro: 'Mismo estímulo de velocidad, repartido en 3 bloques más cortos para llegar fresco al benchmark. Objetivo: ≥300 kcal (Garmin): los 30 seg rápidos tienen que llevarte a Z4-Z5. Si lo hacés en spinning, mismo esquema con resistencia alta (no pedaleo suelto).',
     blocks: [
       { type: 'warmup', title: 'Calentamiento', duration: 8, format: 'Trote + drills',
         exercises: [
-          { id: 's4-j-w-1', name: 'Trote suave', reps: '6 min', detail: 'Z1-Z2.' },
-          { id: 's4-j-w-2', name: 'Strides', reps: '3 × 15 seg', detail: 'Aceleraciones progresivas.' },
+          { id: 's4-j-w-1', name: 'Trote suave', reps: '6 min', detail: 'Z1-Z2. En spinning: 6 min cadencia 85-90 rpm, resistencia media.' },
+          { id: 's4-j-w-2', name: 'Strides', reps: '3 × 15 seg', detail: 'Aceleraciones progresivas. En spinning: 3 × 15 seg sprint sentado.' },
         ] },
-      { type: 'run', title: '30/30', duration: 24, format: '3 × (6 × 30 seg rápido / 30 seg suave) · 3\' entre series',
+      { type: 'run', title: '30/30', duration: 25, format: '3 × (7 × 30 seg rápido / 30 seg suave) · 2\' entre series',
         exercises: [
-          { id: 's4-j-1-1', name: '30 seg rápido', reps: '3 × 6 reps', detail: 'RPE 8-9.' },
-          { id: 's4-j-1-2', name: '30 seg suave', reps: '3 × 6 reps', detail: 'Trote.' },
-          { id: 's4-j-1-3', name: 'Pausa entre series', reps: '2 × 3 min', detail: 'Trote muy suave.' },
+          { id: 's4-j-1-1', name: '30 seg rápido', reps: '3 × 7 reps', detail: 'RPE 8-9, FC Z4-Z5. En spinning: resistencia alta, 100+ rpm, de pie las últimas 10 seg.' },
+          { id: 's4-j-1-2', name: '30 seg suave', reps: '3 × 7 reps', detail: 'Trote (o pedaleo suave con resistencia baja, sin parar).' },
+          { id: 's4-j-1-3', name: 'Pausa entre series', reps: '2 × 2 min', detail: 'Trote muy suave, sin pararte.' },
         ] },
-      { type: 'run', title: 'Vuelta a la calma', duration: 6, format: 'Trote + GOWOD',
+      { type: 'run', title: 'Vuelta a la calma', duration: 5, format: 'Trote + GOWOD',
         exercises: [
-          { id: 's4-j-2-1', name: 'Trote regenerativo', reps: '6 min', detail: 'Z1. Después GOWOD de piernas.' },
+          { id: 's4-j-2-1', name: 'Trote regenerativo', reps: '5 min', detail: 'Z1. Después GOWOD de piernas.' },
         ] },
     ],
   },
